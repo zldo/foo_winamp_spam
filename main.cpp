@@ -26,15 +26,16 @@ the following restrictions:
 #include "../foobar2000/helpers/helpers.h"
 #include "winamp.h"
 
-#define VERSION ("0.99")
+#define VERSION ("0.99.1")
 
-DECLARE_COMPONENT_VERSION ("Winamp API Emulator",
+DECLARE_COMPONENT_VERSION ("Winamp API Emulator with MuzCat support",
 	VERSION,
 	"Emulates the Winamp API, making Foobar compatible with sofware written for Winamp\n"
 	"Original (till v0.90) by R1CH (www.r1ch.net)\n"
 	"v0.91 - v0.96 maintained by Chronial (Christian Fersch)\n"
 	"v0.97 - v0.98 maintained by selyb@thefamilycirc.us\n"
-	"Since v0.99 maintained by Raziel (raziely@gmail.com)");
+	"Since v0.99 maintained by Raziel (raziely@gmail.com)\n"
+	"v0.99.1 maintained by zldo (zldo@mail.ru), add MuzCat support");
 
 
 // {1D3BB858-26FA-4a70-ADB0-6EB567B32576}
